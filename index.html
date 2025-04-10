@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- ESTILO -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <title>Refund - Reembolso</title>
+</head>
+
+<body>
+    <main>
+        <img src="assets/images/logo.svg" alt="Convert logo" class="logo" />
+
+        <section>
+            <form>
+                <h1>Solicitação de reembolso</h1>
+                <p>
+                    Informe os dados da despesa para solicitar reembolso. A despesa será
+                    analisada e reembolsada em até 30 dias.
+                </p>
+
+                <fieldset>
+                    <legend>Nome da despesa</legend>
+                    <input type="text" id="expense" name="expense" required />
+                </fieldset>
+
+                <div class="inputs-row">
+                    <fieldset>
+                        <legend>Categoria</legend>
+                        <select id="category" name="category" required>
+                            <option value="" disabled selected hidden>Selecione</option>
+                            <option value="food">Alimentação</option>
+                            <option value="accommodation">Hospedagem</option>
+                            <option value="services">Serviços</option>
+                            <option value="transport">Transporte</option>
+                            <option value="others">Outros</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Valor da despesa</legend>
+                        <input type="text" name="amount" id="amount" placeholder="R$ 0,00" required />
+                    </fieldset>
+                </div>
+
+                <button type="submit">Adicionar despesa</button>
+            </form>
+
+            <aside>
+                <header>
+                    <p>
+                        Minhas solicitações <i>&bullet;</i>
+                    </p>
+                    <span id="expense-qt">0 despesa</span>
+                    <h2 id="expense-total"><small>R$</small>0,00</h2>
+                </header>
+
+                <ul>
+                    <!-- 
+                    Exemplo de item de despesa
+                    <li class="expense">
+                        <img src="assets/images/food.svg" alt="Ícone de tipo da despesa" />
+
+                        <div class="expense-info">
+                            <strong>Almoço</strong>
+                            <span>Alimentação</span>
+                        </div>
+
+                        <span class="expense-amount"><small>R$</small>1.420,57</span>
+
+                        <img src="assets/images/remove.svg" alt="remover" class="remove-icon" />
+                    </li> 
+                    -->
+                </ul>
+            </aside>
+
+        </section>
+        
+        <footer>
+            <p>
+                Desenvolvido por
+                <strong>
+                    <a href="https://linktr.ee/anacquesta" target="_blank">Carol Gonzaga</a>
+                </strong>
+                em parceria com
+                <strong>
+                    <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a>
+                </strong>
+            </p>
+        </footer>
+    </main>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
