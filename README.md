@@ -6,7 +6,7 @@
 
 <p align="center">Uma aplicação de controle de reembolsos com abordagem totalmente responsiva.</p>
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://carolgonzaga.github.io/refund-reembolso/">Acesse o Projeto</a>
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#-objetivo">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://carolgonzaga.github.io/refund-reembolso/">Acesse o Projeto</a>
 </p>
 
 </br>
